@@ -1,0 +1,25 @@
+.list-item {
+  list-style: none;
+  font-weight: 400;
+  &.active {
+    button {
+      background-color: white;
+    }
+    border-bottom: 2px solid red;
+    // box-shadow: 0 0px 0px 0px rgba(46, 41, 51, 0.08),
+    //   0 0px 0px 0px rgba(71, 63, 79, 0.16);
+  }
+
+  button {
+    background-color: #f3eeeeef;
+    text-align: center;
+    padding: 10px 150px;
+    border: 1px solid rgba(0, 0, 0, 0.478);
+    &:hover {
+      background-color: #e1dedeeb;
+      &.active {
+        background-color: white;
+      }
+    }
+  }
+}

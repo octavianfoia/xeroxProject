@@ -1,0 +1,22 @@
+.navbar {
+  border-bottom: 1px solid #757272;
+  padding: 20px 0;
+  //   position: sticky;
+  & .navbar-elements {
+    max-width: 90%;
+    margin: 0 15%;
+    // height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.navbar-elements_categories {
+  margin: 0 120px 0 80px;
+  list-style-type: none;
+  display: flex;
+  li {
+    font-size: 16px;
+  }
+}

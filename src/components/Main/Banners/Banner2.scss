@@ -1,0 +1,74 @@
+.banner2 {
+  &:hover {
+    .button {
+      background-color: darkred;
+    }
+  }
+  .background {
+    width: 100%;
+    height: 185px;
+    position: relative;
+    background-image: url(../../../assets/leaf.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //   img {
+    //     //display: block;
+    //     height: 300px;
+    //     place-items: center;
+    //     overflow: hidden;
+    //     // object-fit: cover;
+    //   }
+
+    .text {
+      display: block;
+      color: white;
+      font-size: 50px;
+      text-decoration: none;
+      white-space: pre-line;
+      text-decoration-thickness: 0.0625em;
+      text-underline-offset: 0.05em;
+      font-weight: 300;
+      text-shadow: 0 0.0416em 0.16em rgba(0, 0, 0, 0.65);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -70%);
+    }
+    .subtext {
+      display: block;
+      color: white;
+      font-size: 27px;
+      text-decoration: none;
+      white-space: pre-line;
+      text-decoration-thickness: 0.0625em;
+      text-underline-offset: 0.05em;
+      font-weight: 300;
+      text-shadow: 0 0.0416em 0.16em rgba(0, 0, 0, 0.65);
+      position: absolute;
+      top: 15%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    // display: block;
+    // position: relative;
+    // top: 100%;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+    // text-align: center;
+  }
+  .button {
+    background-color: #ee2334;
+    color: white;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

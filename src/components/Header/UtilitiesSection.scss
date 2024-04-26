@@ -1,0 +1,22 @@
+.header-utils {
+  border-bottom: 1px solid #757272;
+  background-color: #f6f6f6;
+
+  &__inline a:hover {
+    color: rgb(234, 15, 15);
+  }
+
+  &__inline {
+    padding-left: 67%;
+    padding-right: 10%;
+    padding-block: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__inline a {
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+}

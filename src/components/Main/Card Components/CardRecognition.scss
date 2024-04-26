@@ -1,0 +1,56 @@
+.card-container2 {
+  border: 0.8px solid rgba(0, 0, 0, 0.808);
+
+  a {
+    min-height: 615px;
+    width: 310px;
+
+    position: relative;
+    // width: 360px;
+    // height: 410px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    overflow: hidden;
+    // margin-bottom: 10px;
+
+    &:hover {
+      background-color: #cbcacaaf;
+      img {
+        opacity: 0.9;
+      }
+
+      .abuttonn {
+        background-color: #333333;
+        color: white;
+      }
+    }
+
+    img {
+      overflow: hidden;
+    }
+
+    h3 {
+      padding: 0 15px;
+      font-weight: 300;
+      font-size: 30px;
+    }
+
+    p {
+      padding: 0 15px;
+      font-weight: 500;
+      margin-bottom: 40px;
+    }
+  }
+  .abuttonn {
+    position: absolute;
+    // margin-bottom: 15px;
+    left: 25px;
+    bottom: 5px;
+  }
+}

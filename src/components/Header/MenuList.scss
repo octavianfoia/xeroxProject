@@ -1,0 +1,11 @@
+.submenu-picture {
+  display: flex;
+  // min-width: 70px;
+  gap: 20px;
+  // justify-content: space-evenly;
+
+  & img {
+    width: 28px;
+    aspect-ratio: 1/1;
+  }
+}

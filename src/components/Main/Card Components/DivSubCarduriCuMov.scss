@@ -1,0 +1,32 @@
+.big-container {
+  width: 75%;
+  display: flex;
+  margin: 5px 100px;
+  justify-content: center;
+  align-items: center;
+  .text-container {
+    // width: 80%;
+    text-align: center;
+    margin: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    h2 {
+      color: #860a6d;
+      font-size: 58px;
+      font-weight: 700;
+
+      line-height: 1em;
+    }
+
+    // &:last-of-type {
+    //   width: 57%;
+    //   margin-left: 70px;
+    // }
+
+    p {
+      font-size: 25px;
+      font-weight: 300;
+      text-align: center;
+    }
+  }
+}

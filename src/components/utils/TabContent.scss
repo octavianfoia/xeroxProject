@@ -1,0 +1,17 @@
+.content-container {
+  padding: 30px 10px;
+  max-height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    width: fit-content;
+    &:hover {
+      color: red;
+    }
+  }
+}

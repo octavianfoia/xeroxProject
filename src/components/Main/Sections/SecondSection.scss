@@ -1,0 +1,33 @@
+.second-section-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  align-items: center;
+  text-decoration-thickness: 0.0625em;
+  text-underline-offset: 0.05em;
+  font-weight: 300;
+  gap: 20px;
+
+  .paragraph {
+    font-size: 34px;
+  }
+
+  .cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration-thickness: 0.0625em;
+    text-underline-offset: 0.05em;
+    font-weight: 300;
+    text-decoration: none;
+
+    a {
+      text-decoration-thickness: 0.0625em;
+      text-underline-offset: 0.05em;
+      font-weight: 300;
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
