@@ -26,9 +26,7 @@ export const Header = () => {
       <SecondSection />
       <ThirdSection />
       <FourthSection />
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </div>
   );
 };
