@@ -2,7 +2,6 @@
 import './TabContent.scss';
 
 export const TabContent = ({ data }) => {
-  console.log(data);
   return (
     <ul className="content-container">
       {data.map((elem, index) => (
