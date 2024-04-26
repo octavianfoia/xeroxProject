@@ -8,6 +8,7 @@ import { bannerContent } from '../../menuList';
 import { SecondSection } from '../Main/Sections/SecondSection';
 import { ThirdSection } from '../Main/Sections/ThirdSection';
 import { FourthSection } from '../Main/Sections/FourthSection';
+import { Footer } from '../Footer/Footer';
 
 export const Header = () => {
   return (
@@ -25,6 +26,9 @@ export const Header = () => {
       <SecondSection />
       <ThirdSection />
       <FourthSection />
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 };
