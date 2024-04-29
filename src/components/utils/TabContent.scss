@@ -1,11 +1,12 @@
-.content-container {
-  padding: 30px 10px;
+.fourth-content-container {
+  padding: 30px 30px;
   max-height: 250px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   gap: 20px;
-  a {
+  a.fourth-section-a-tag {
+    width: fit-content;
     text-decoration: none;
     color: black;
     font-weight: bold;

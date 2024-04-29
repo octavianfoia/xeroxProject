@@ -10,8 +10,6 @@ export const TabComponent = ({ data, keyItem, onSelect, isActive }) => {
         className={isActive === keyItem ? 'active' : ''}
         onClick={() => {
           onSelect(data.tabTitle, keyItem);
-          //!To be removed clg
-          console.log(data);
         }}>
         {data.tabTitle}
       </button>

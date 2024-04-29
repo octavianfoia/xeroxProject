@@ -18,6 +18,7 @@ export const FourthSection = () => {
   return (
     <section id="section4" className="section4-container">
       <a
+        className="a-banner"
         style={{ cursor: 'pointer' }}
         href="https://www.xerox.com/en-us/about/corporate-social-responsibility/report-archive">
         <div className="fourth-section-container">
